@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+* {
+  /* Box-model */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+  /* Typography */
+  font-family: "Source Sans Pro", sans-serif;
+
+  /* Visual */
+  outline: 0;
+}
+
+*:focus {
+  /* Visual */
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  /* Box-model */
+  height: 100%;
+}
+
+body {
+  /* Misc */
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  /* Visual */
+  text-decoration: none;
+}
+
+ul {
+  /* Visual */
+  list-style: none;
+}
+
+button {
+  /* Misc */
+  cursor: pointer;
+}
